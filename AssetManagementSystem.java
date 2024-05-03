@@ -1,4 +1,4 @@
-package Asset_Management;
+package AssetManagement;
 
 import java.util.Scanner;
 
