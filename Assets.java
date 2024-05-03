@@ -1,4 +1,4 @@
-package Asset_Management;
+package AssetManagement;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -37,6 +37,16 @@ public class Assets
 		int dCount=del.size();
 		return dCount;
 	}
+	public int lCount()
+	{
+		int lCount=leno.size();
+		return lCount;
+	}
+	int totalAsset()
+	{
+		int tAsset=leno.size()+del.size();
+		return tAsset;
+	}
 	public void addDell(Dell ser)
 	{
 		del.add(ser);
@@ -44,8 +54,6 @@ public class Assets
 	public void addLenovo(Lenovo lenovo)
 	{
 		leno.add(lenovo);
-		System.out.println("Asset added successfully");
-		System.out.println("Total Lenovo laptop count: "+total_lCount);
 	}
 	public void delAsset(String asset)
 	{
