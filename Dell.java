@@ -1,4 +1,4 @@
-package Asset_Management;
+package AssetManagement;
 
 public class Dell 
 {
