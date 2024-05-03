@@ -1,15 +1,14 @@
-package Asset_Management;
+package AssetManagement;
 
 public class Lenovo 
 {
 	private String lModel;
 	private String lSnumber;
 	static private int lQuantity;
-	public Lenovo(String lModel,String lSnumber,int lQuantity)
+	public Lenovo(String lModel,String lSnumber)
 	{
 		this.lModel=lModel;
 		this.lSnumber=lSnumber;
-		Lenovo.lQuantity=lQuantity;
 	}
 	public String getlModel() 
 	{
